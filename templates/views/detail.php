@@ -15,9 +15,6 @@ and open the template in the editor.
         <script src="../js/jquery-1.11.0.min.js" type="text/javascript"></script>
         <script src="../js/bootstrap.js" type="text/javascript"></script>
  
-
-
-
     </head>
     <body>
         <?php 
@@ -25,7 +22,6 @@ and open the template in the editor.
             include './type-5.php';
             include './type-comment.php';
             include './type-12.php';
-            
         ?>
     </body>
 </html>
