@@ -84,7 +84,7 @@
                                                     <div class="product_name ellipsis">
                                                         <a href="#">Most popular and it is really hard to offer computer hardware because of g</a>
                                                     </div>
-                                                    <div class="product_price product_sale>
+                                                    <div class="product_price product_sale">
                                                          <span class="money product_price_with_sale">
                                                          123
                                                          </span>
@@ -131,7 +131,7 @@
                                                     <div class="product_name ellipsis">
                                                         <a href="#">Most popular and it is really hard to offer computer hardware because of g</a>
                                                     </div>
-                                                    <div class="product_price product_sale>
+                                                    <div class="product_price product_sale">
                                                          <span class="money product_price_with_sale">
                                                          123
                                                          </span>
@@ -178,7 +178,7 @@
                                                     <div class="product_name ellipsis">
                                                         <a href="#">Most popular and it is really hard to offer computer hardware because of g</a>
                                                     </div>
-                                                    <div class="product_price product_sale>
+                                                    <div class="product_price product_sale">
                                                          <span class="money product_price_with_sale">
                                                          123
                                                          </span>
@@ -225,7 +225,7 @@
                                                     <div class="product_name ellipsis">
                                                         <a href="#">Most popular and it is really hard to offer computer hardware because of g</a>
                                                     </div>
-                                                    <div class="product_price product_sale>
+                                                    <div class="product_price product_sale">
                                                          <span class="money product_price_with_sale">
                                                          123
                                                          </span>
@@ -272,7 +272,7 @@
                                                     <div class="product_name ellipsis">
                                                         <a href="#">Most popular and it is really hard to offer computer hardware because of g</a>
                                                     </div>
-                                                    <div class="product_price product_sale>
+                                                    <div class="product_price product_sale">
                                                          <span class="money product_price_with_sale">
                                                          123
                                                          </span>
@@ -319,7 +319,7 @@
                                                     <div class="product_name ellipsis">
                                                         <a href="#">Most popular and it is really hard to offer computer hardware because of g</a>
                                                     </div>
-                                                    <div class="product_price product_sale>
+                                                    <div class="product_price product_sale">
                                                          <span class="money product_price_with_sale">
                                                          123
                                                          </span>
