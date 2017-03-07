@@ -1,13 +1,18 @@
-
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
     <head>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href="../css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<!--        <link href="../css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <script src="../js/jquery-1.11.0.min.js" type="text/javascript"></script>
-        <script src="../js/bootstrap.js" type="text/javascript"></script>
+        <script src="../js/bootstrap.js" type="text/javascript"></script>-->
 
         <?php
             if (!class_exists('lessc')) {
@@ -16,13 +21,21 @@
             $less = new lessc;
             $less->compileFile('../less/type-1.less', '../css/type-1.css');
         ?>
+
         <link href="../css/nivo-slider.css" rel="stylesheet" type="text/css"/>
         <link href="../css/type-1.css" rel="stylesheet" type="text/css"/>
         <script src="../js/jquery-migrate.min.js" type="text/javascript"></script>
         <script src="../js/jquery.nivo.slider.js" type="text/javascript"></script>
         <script type="text/javascript"> 
+            
             $(window).load(function () {
-                $('#slider_main').nivoSlider({effect: 'random', pauseTime: 4000, directionNav: true, controlNav: true, pauseOnHover: false});
+                $('#slider_main').nivoSlider({
+                    effect: 'random',
+                    pauseTime: 4000, 
+                    directionNav: true,
+                    controlNav: true,
+                    pauseOnHover: false
+                });
             });
 
         </script>
