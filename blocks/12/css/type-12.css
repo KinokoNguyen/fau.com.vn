@@ -1,8 +1,9 @@
 .type-12 #footer {
-  background: url(../images/bg-footer.png) no-repeat 50% 100%;
+  margin-top: 30px;
+  background: url(../images/type-12/bg-footer.png) no-repeat 50% 100%;
 }
 .type-12 #footer .footer-head {
-  background: url(../images/line-footer.png) no-repeat 0 0;
+  background: url(../images/type-12/line-footer.png) no-repeat 0 0;
 }
 .type-12 #footer .info-company {
   font-family: 'RobotoRegular';
@@ -34,7 +35,7 @@
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
   color: #000000;
-  background: url(../images/icon-viewmap.jpg) no-repeat 0 50%;
+  background: url(../images/type-12/icon-viewmap.jpg) no-repeat 0 50%;
   font-family: 'RobotoRegular';
   font-style: italic;
 }

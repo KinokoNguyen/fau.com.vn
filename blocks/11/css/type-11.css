@@ -41,32 +41,32 @@
 }
 .type-11 .the-content .info_contact .address {
   padding-left: 40px;
-  background: url(../images/icon-home.png) no-repeat 0% 50%;
+  background: url(../images/type-11/icon-home.png) no-repeat 0% 50%;
   position: relative;
 }
 .type-11 .the-content .info_contact .address2 {
   padding-left: 40px;
-  background: url(../images/icon-home2.png) no-repeat 0% 50%;
+  background: url(../images/type-11/icon-home2.png) no-repeat 0% 50%;
   position: relative;
 }
 .type-11 .the-content .info_contact .phone {
   padding-left: 40px;
-  background: url(../images/icon-phone.png) no-repeat 0% 50%;
+  background: url(../images/type-11/icon-phone.png) no-repeat 0% 50%;
   position: relative;
 }
 .type-11 .the-content .info_contact .fax {
   padding-left: 40px;
-  background: url(../images/icon-fax.png) no-repeat 0% 50%;
+  background: url(../images/type-11/icon-fax.png) no-repeat 0% 50%;
   position: relative;
 }
 .type-11 .the-content .info_contact .email {
   padding-left: 40px;
-  background: url(../images/icon-email.png) no-repeat 0% 50%;
+  background: url(../images/type-11/icon-email.png) no-repeat 0% 50%;
   position: relative;
 }
 .type-11 .the-content .info_contact .website {
   padding-left: 40px;
-  background: url(../images/icon-website.png) no-repeat 0% 50%;
+  background: url(../images/type-11/icon-website.png) no-repeat 0% 50%;
   position: relative;
 }
 .type-11 .the-content .Qcode {
@@ -85,7 +85,7 @@
 }
 .type-11 .the-content #formContact {
   width: 100%;
-  background: url(../images/bg-contact.png) no-repeat 100% 0% #f2f2f2;
+  background: url(../images/type-11/bg-contact.png) no-repeat 100% 0% #f2f2f2;
   padding: 20px;
 }
 .type-11 .the-content #formContact .row-form {

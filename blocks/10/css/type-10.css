@@ -37,7 +37,7 @@
   -o-border-radius: 35px;
   -ms-border-radius: 35px;
   border-radius: 35px;
-  background: url(../images/icon-hiring.png) no-repeat 15px 50% #484848;
+  background: url(../images/type-10/icon-hiring.png) no-repeat 15px 50% #484848;
   font-size: 13px;
   line-height: 14px;
   text-transform: uppercase;
@@ -50,7 +50,7 @@
   transition: all 0.5s ease;
 }
 .type-10 .the-content .table-hiring table tr td .link-button:hover {
-  background: url(../images/icon-hiring.png) no-repeat 15px 50% #f79231;
+  background: url(../images/type-10/icon-hiring.png) no-repeat 15px 50% #f79231;
 }
 .type-10 .the-content .table-hiring table tr td.name {
   font-size: 16px;

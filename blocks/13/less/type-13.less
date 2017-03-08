@@ -1,108 +1,59 @@
 .type-13{
-    .comment {
-        margin-bottom: 20px;
-        .title {
-            font-size: 25px;
-            line-height: 33px;
-            margin-bottom: 10px;
-            text-transform: uppercase;
-            color: #333333;
+    .banner{
+        img{
+            width: 100%;
         }
-        .input-group {
+    }
+
+    .breadcrumb{
+        margin: 0px 0px 10px 0px;
+        background-color: transparent;
+        padding: 10px;
+        border-radius: 4px;
+        ul {
+            padding: 0px 0px;
+            width: 100%;
+            background-color: transparent;
+            margin: 0px;
+            text-align: right;
             position: relative;
-            display: table;
-            border-collapse: separate;
-        }
-        .form-comment{
-            width: 100%; 
-            textarea.form-control {
-                width: 100%; 
-                resize: vertical;
-                -webkit-transition: all 0.5s ease;
-                -moz-transition: all 0.5s ease;
-                -o-transition: all 0.5s ease;
-                transition: all 0.5s ease;
-            }
-            .content-info {
-                width: 100%; 
-                padding: 15px;
-                clear: both;
-                background-color: #ffffff;
-                box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
-                .info-title {
-                    margin-bottom: 10px;
-                }
-                .form-control {
-                    float: none;
-                    margin-bottom: 10px;
-                }
-            }
-            .form-control {
-                height: 40px;
-            }
-            label {
+
+            li {
+                padding: 0px 12px;
+                position: relative;
                 display: inline-block;
-                max-width: 100%;
-                margin-bottom: 5px;
-                font-weight: bold;
-            }
-            input[type="radio"], input[type="checkbox"] {
-                margin: 4px 0 0;
-                margin-top: 1px \9;
-                line-height: normal;
-            }
-
-            .input-group-btn { 
-                padding-left: 5px;
-                vertical-align: top;
-                position: relative;
-                font-size: 0;
-                white-space: nowrap;
-            }
-            button.btn {
-                height: auto;
-                font-size: 16px;
-                line-height: 24px;
-                color: #ffffff;
-                padding: 7px 10px;
-                text-transform: uppercase;
-                background: #67635c;
-                border: 0px;
-                position: relative;
-            }
-            @media(min-width: 768px){
-                .input-group-btn,.input-group{
-                    float:left;
-                }
-                .input-group-btn{
-                    width: 5%;
-                }
-                .input-group{
-                    width: 95%;
+                font-size: 14px;
+                color: #666666;
+                line-height: 20px;
+                a {
+                    font-size: 14px;
+                    color: #666666;
+                    line-height: 20px;
+                    font-family: 'RobotoRegular';
                 }
             }
 
-        }
-        @media(max-width: 767px){
-
-            .title{
-                margin: 0 15px;
+            li.home a {
+                display: inline-block;
+                text-indent: -99999px;
+                color: transparent;
+                width: 20px;
+                height: 18px;
+                background: url(../images/type-13/icon-home1.png) no-repeat 50% 4px;
             }
-            .form-comment{
-                textarea{
-                    width: 100%;
-                    padding: 0 15px;
-                }
-                .input-group-btn{
-                    width: auto;
-                    float:right;
-                    position: absolute;
-                    right: 10px;
-                    margin-top: -55px;
-                }
-                .input-group{
-                    width: 100%;
-                }
+            li ~ li:before {
+                position: absolute;
+                content: "/";
+                width: 20px;
+                height: 20px;
+                top: 0px;
+                left: -17px;
+                color: #666666;
+                font-size: 14px;
+            }
+
+            li:first-child {
+                padding: 0px 12px 0px 0px;
             }
         }
     }
