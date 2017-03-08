@@ -16,10 +16,10 @@ and open the template in the editor.
 
         <?php
         if (!class_exists('lessc')) {
-            include ('libs/lessc.inc.php');
+            include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-8.less', 'css/type-8.css');
+        $less->compileFile('./less/type-8.less', './css/type-8.css');
         ?>
 
         <link href="css/all_css.css" rel="stylesheet" type="text/css"/>
