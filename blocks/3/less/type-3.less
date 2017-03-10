@@ -49,8 +49,8 @@
             position: absolute;
             left: 0px;
             bottom: 20px;
-            width: 460px;
-            padding: 20px;
+            
+            
             background-color: rgba(0,175,90,0.9);
             .i-label {
                 font-size: 13px;
@@ -60,7 +60,7 @@
                 text-transform: uppercase;
             }
             .i-title {
-                font-size: 23px;
+                
                 line-height: 25px;
                 color: #ffffff;
                 text-transform: uppercase;
@@ -82,7 +82,6 @@
             }
         }
     }
-
     .item { 
         text-align: center;
         margin-top: 20px;
@@ -167,6 +166,7 @@
 
     //slider vertical 
     .item-slider { 
+        width: 100%;
         overflow: hidden;
         float: left; 
         background-color: #fd8103;
@@ -245,8 +245,11 @@
         .container{
             margin: 0 15px;
         }
+        .mg-r{
+            padding: 0px;
+        }
         .item-slider{
-            display: none;
+            margin-top: 10px;
         }
     }
 }
@@ -254,6 +257,24 @@
     .type-3{
         .item-slider{
             padding: 0px 10px 10px 10px;
+        }
+    }
+}
+@media (min-width: 692px){
+    .i-description{
+        padding: 20px;
+        width: 460px;
+        .i-title{
+            font-size: 23px;
+        }
+    }
+}
+@media (max-width: 693px){
+    .i-description{
+        padding: 0px;
+        width: 280px;
+        .i-title{
+            font-size: 16px;
         }
     }
 }
