@@ -42,7 +42,8 @@ and open the template in the editor.
     </head>
     <body>
         <div class="type-1">
-            <div class="row">
+            <div class="container-fluid">
+                <div class="row">
                 <div class="banner">
                     <div id="slider_main" class="nivoSlider">
                         <!--START SLIDE BANNER-->
@@ -60,6 +61,7 @@ and open the template in the editor.
                         </a>
                         <!--END SLIDE BANNER-->
                     </div>
+                </div>
                 </div>
             </div>
         </div>

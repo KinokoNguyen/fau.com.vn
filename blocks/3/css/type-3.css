@@ -219,6 +219,9 @@
   background-position: -17px 0px;
   right: 0px;
 }
+.type-3 .mg-r {
+  padding-right: 0px;
+}
 @media (max-width: 767px) {
   .type-3 .container {
     margin: 0 15px;

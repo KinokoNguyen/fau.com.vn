@@ -22,6 +22,7 @@
     </head>
     <body>
         <div class="type-11">
+            <div class="container-fluid">
             <div class="row">
                 <div class="heading">
                     <!--TITLE-->
@@ -126,6 +127,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </body>

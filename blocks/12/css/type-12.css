@@ -116,9 +116,15 @@
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
+.type-12 #footer .footer-contact {
+  padding: 0;
+}
 @media (max-width: 767px) {
   .type-12 #footer {
-    margin: 0 15px;
+    margin: 0;
+  }
+  .type-12 #footer .footer-head {
+    margin: 0;
   }
   .type-12 #footer .social-footer {
     bottom: 15px;

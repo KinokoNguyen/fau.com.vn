@@ -11,7 +11,7 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-        <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
+      
         <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>
 
@@ -30,16 +30,17 @@ and open the template in the editor.
     </head>
     <body>
         <div class="type-header">
+            <div class="container-fluid">
             <div class="row">
                 <div id="header">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-3">
+<!--                    <div class="container">
+                        <div class="row">-->
+                            <div class="col-md-3 header-menu">
                                 <div class="logo">
                                     <img src="images/type-header/logo-FAU.png">
                                 </div>
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-md-9 header-menu">
 
                                 <div class="header-r">
 
@@ -205,9 +206,11 @@ and open the template in the editor.
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+<!--                        </div>
+                    </div>-->
+<div class="clearfix"></div>
                 </div>
+                
                 <script>
                     $(document).ready(function () {
                         var i = 0;
@@ -227,6 +230,7 @@ and open the template in the editor.
                         });
                     });
                 </script>
+            </div>
             </div>
         </div> 
 

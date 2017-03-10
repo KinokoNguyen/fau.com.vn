@@ -30,7 +30,7 @@ and open the template in the editor.
     </head>
     <body>
         <div class="type-8">
-
+            <div class="container-fluid">
             <div class="row">
                 <div class="mid-title">
                     <!--TITLE-->
@@ -53,7 +53,6 @@ and open the template in the editor.
                     <!--END MENU CATEOGRY-->
                 </div>
             </div>
-
             <div class="row">
                 <div class="container">
                     <div class="the-content">
@@ -100,7 +99,7 @@ and open the template in the editor.
                     </div>
                 </div>
             </div>
-
+            </div>
         </div>
 
     </body>

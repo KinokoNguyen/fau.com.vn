@@ -31,7 +31,8 @@ and open the template in the editor.
     <body>
         <div class="type-6">
 
-            <div class="row">
+            <div class="container-fluid">
+                <div class="row">
                 <div class="mid-title">
                     <div class="titleL">
                         <!--TITLE-->
@@ -41,7 +42,7 @@ and open the template in the editor.
                     
                     <div class="clear"></div>
                 </div>
-            </div> 
+                </div>
             <div class="row">
                 <div class="menu-category">
                     <!--BEGIN MENU CATEGORY-->
@@ -55,7 +56,7 @@ and open the template in the editor.
                     <!--END MENU CATEGORY-->
                 </div>
             </div>
-
+            </div> 
         </div>
 
     </body>

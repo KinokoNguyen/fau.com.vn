@@ -28,6 +28,7 @@ and open the template in the editor.
     </head>
     <body>
         <div class="type-10">
+            <div class="container-fluid">
             <div class="row">
                 <div class="heading">
                     <!--TITLE-->
@@ -89,6 +90,7 @@ and open the template in the editor.
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
 

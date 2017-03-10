@@ -26,7 +26,6 @@ and open the template in the editor.
             include './type-2.php';
             include './type-3.php';
             include './type-12.php';
-            
         ?>
     </body>
 </html>

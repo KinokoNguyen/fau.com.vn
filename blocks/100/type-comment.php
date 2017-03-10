@@ -28,6 +28,7 @@ and open the template in the editor.
     </head>
     <body>
         <div class="type-comment">
+            <div class="container-fluid">
             <div class="row">
                 <div class="container">
                     <div class="row">
@@ -80,6 +81,7 @@ and open the template in the editor.
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </body>

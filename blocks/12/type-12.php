@@ -22,12 +22,13 @@
     </head>
     <body>
         <div class="type-12">
-
+            <div class="container-fluid">
             <div class="row">
-                <div class="container">
+                
                     <div id="footer">
-                        <div class="row footer-head">
-                            <div class="col-md-9 col-sm-8 col-xs-12">
+                        <div class="container">
+                            <div class="row footer-head">
+                            <div class="col-md-9 col-sm-8 col-xs-12 footer-contact">
                                 <div class="info-company">
                                     <!--INFO COMPANY FOOTER-->
                                     <p class="name"><span>Copyright © 2015 </span>CÔNG TY TNHH NÔNG NGHIỆP QUỐC TẾ FAU </p>
@@ -41,7 +42,7 @@
 
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-4 col-xs-12">
+                            <div class="col-md-3 col-sm-4 col-xs-12 footer-contact">
                                 <div class="user-traffic">
                                     <ul class="box_statistics">
                                         <!--TRAFFIC-->
@@ -52,9 +53,10 @@
                                     </ul>
                                 </div>
                             </div>
+                            </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-9 col-sm-8 col-xs-12">
+                        <div class="">
+                            <div class="col-md-9 col-sm-8 col-xs-12 footer-contact">
                                 <div class="info-footer">
                                     <ul>
                                         <!--INFO FOOTER-->
@@ -65,7 +67,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-4 col-xs-12">
+                            <div class="col-md-3 col-sm-4 col-xs-12 footer-contact">
                                 <div class="social-footer">
                                     <!--LINK SOCIAL-->
                                     <ul>
@@ -90,7 +92,8 @@
                             </div>
                         </div> 
                     </div>
-                </div>
+                
+            </div>
             </div>
         </div>
     </body>

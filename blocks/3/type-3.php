@@ -21,7 +21,7 @@ and open the template in the editor.
         $less = new lessc;
         $less->compileFile('./less/type-3.less', './css/type-3.css');
         ?>
-        <link href="css/all_css.css" rel="stylesheet" type="text/css"/>
+<!--        <link href="css/all_css.css" rel="stylesheet" type="text/css"/>-->
         <link href="css/type-3.css" rel="stylesheet" type="text/css"/>
 
 
@@ -45,8 +45,9 @@ and open the template in the editor.
     </head>
     <body>
         <div class="type-3">
-            <div class="row">
+            
                 <div class="container">
+                    <div class="row">
                     <div class="heading">
                         <!--TITLE-->
                         <div class="p-title">
@@ -54,7 +55,7 @@ and open the template in the editor.
                         </div>
                         <!--END TITLE-->
                     </div>
-                    <div class="row">
+                    <div class="">
                         <div class="col-md-9 col-sm-9 col-xs-12">
                             <div class="row">
                                 <!--ITEM PRODUCT LARGE-->
@@ -204,7 +205,8 @@ and open the template in the editor.
 
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-3 col-xs-12 mg-r pd-r">
+                        <div class="col-md-3 col-sm-3 col-xs-12 mg-r">
+                            <div class="">
                             <div class="item-slider">
                                 <div class="s-title">Bằng khen &amp; chứng nhận</div>
                                 <div class="slider-news">
@@ -224,6 +226,7 @@ and open the template in the editor.
 
                                     </div>
                                 </div>
+                            </div>
                             </div>
                         </div>
                     </div>

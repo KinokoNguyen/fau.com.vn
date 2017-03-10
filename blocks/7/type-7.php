@@ -29,7 +29,7 @@ and open the template in the editor.
     </head>
     <body>
         <div class="type-7">
-
+            <div class="container-fluid">
             <div class="row">
                 <!--TITLE-->
                 <div class="mid-title">
@@ -111,6 +111,7 @@ and open the template in the editor.
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
 

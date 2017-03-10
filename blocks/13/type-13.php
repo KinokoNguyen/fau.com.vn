@@ -28,6 +28,7 @@ and open the template in the editor.
     </head>
     <body>
         <div class="type-13">
+            <div class="container-fluid">
             <div class="row">
                 <div class="banner">
                     <a href="#">
@@ -50,6 +51,7 @@ and open the template in the editor.
                         </ul>
                     </div>
                 </div>
+            </div>
             </div>
         </div>    
     </body>

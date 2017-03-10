@@ -55,7 +55,6 @@ and open the template in the editor.
     </head>
     <body>
         <div class="type-4">
-            <div class="row"> 
                 <div class="container">
                     <div class="row">
                         <div class="related-product">
@@ -230,7 +229,7 @@ and open the template in the editor.
                         </div>
                     </div>
                 </div>
-            </div>
+            
         </div>
 
     </body>

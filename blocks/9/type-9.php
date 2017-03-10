@@ -28,13 +28,14 @@ and open the template in the editor.
     </head>
     <body>
         <div class="type-9">
+            <div class="container-fluid">
             <div class="row">
                 <div class="heading">
                     <!--TITLE-->
                     <div class="p-title">
                         <h2>Thức ăn gia súc gia cầm</h2>
                     </div>
-                    <!--END TITLE-->S
+                    <!--END TITLE-->
                 </div>
             </div>
             <div class="row">
@@ -333,6 +334,7 @@ and open the template in the editor.
                     </div>
                 </div>
 
+            </div>
             </div>
         </div>
 

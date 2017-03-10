@@ -30,8 +30,8 @@ and open the template in the editor.
     </head>
     <body>
         <div class="type-5">
-            <div class="row"> 
-                
+            <div class="container-fluid"> 
+                <div class="row">
                 <!--BANNER IMAGE-->
                 <div class="banner-image">
                     <div class="oImage">
@@ -40,10 +40,12 @@ and open the template in the editor.
                         </a>
                     </div>
                 </div>
+                </div>
                 <!--END BANNER IMAGE-->
             </div>
+            <div class="container-fluid">
             <div class="row">
-                <div class="container">
+                
                     <div class="navation">
                         <ul>
                             <li class="home"><a href="#">Trang chủ</a></li>
@@ -51,7 +53,7 @@ and open the template in the editor.
                             <li>Thức ăn cho heo</li>
                         </ul>
                     </div>
-                </div>
+                
             </div>
             <div class="row">
                 <div class="heading">
@@ -185,7 +187,8 @@ and open the template in the editor.
                     </div>
                 </div>
             </div>
-        </div>
+            </div>
+            
 
     </body>
 </html>

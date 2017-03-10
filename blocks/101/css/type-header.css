@@ -3,11 +3,8 @@
   background-color: #00af5a;
   margin: 0px auto;
 }
-.type-header #header .logo {
-  margin: 0 -30px;
-}
 .type-header #header .header-r .menu-top {
-  width: 100%;
+  width: 95%;
   text-align: right;
 }
 .type-header #header .header-r .menu-top .form-search {
@@ -268,6 +265,9 @@
   .type-header #header .menu-main ul li ~ li {
     border-left: 1px solid #cccccc;
   }
+  .type-header #header .logo {
+    float: right;
+  }
 }
 @media (max-width: 767px) {
   .type-header #header {
@@ -327,6 +327,9 @@
   }
   .type-header #header .header-r .menu-main ul a.item-main {
     border-bottom: darkgrey 1.5px dotted;
+  }
+  .header-menu {
+    padding: 0;
   }
 }
 @media (max-width: 990px) {

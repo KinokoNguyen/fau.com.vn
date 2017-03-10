@@ -53,8 +53,9 @@ and open the template in the editor.
     </head>
     <body>
         <div class="type-2">
-            <div class="row">
+            
                 <div class="container">
+                    <div class="row">
                     <div class="heading">
                         <!--TITLE-->
                         <div class="p-title">
@@ -62,7 +63,7 @@ and open the template in the editor.
                         </div>
                         <!--END TITLE-->
                     </div>
-                    <div class="row">
+                    <div class="">
                         <div class="col-md-3 col-sm-4 col-xs-12">
                             <!--PRODUCT CATEGORY-->
                             <div class="prod-menu">
