@@ -1,0 +1,36 @@
+.type-14 .about {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #fff;
+  overflow: hidden;
+}
+.type-14 .about .wrapper {
+  padding: 60px 0px;
+  margin: 0px auto;
+}
+.type-14 .about .about-l {
+  padding-top: 10px;
+}
+.type-14 .about .d-about {
+  font-size: 22px;
+  line-height: 36px;
+  color: #fff;
+  font-family: 'RobotoRegular';
+  height: 100px;
+  overflow: hidden;
+}
+.type-14 .about .viewmore {
+  margin: 20px 0px;
+  padding: 0px 15px;
+  font-size: 22px;
+  line-height: 36px;
+  color: #fff;
+  font-family: 'RobotoRegular';
+  font-style: italic;
+  display: inline-block;
+  border-top: 1px solid #f7f9f5;
+  border-bottom: 1px solid #f7f9f5;
+}
