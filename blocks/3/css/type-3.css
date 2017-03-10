@@ -189,6 +189,7 @@
   line-height: 30px;
   color: #333333;
   text-align: center;
+  width: 100%;
 }
 .type-3 .item-slider .slick-prev,
 .type-3 .item-slider .slick-next {
