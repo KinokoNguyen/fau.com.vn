@@ -42,14 +42,15 @@
         ul {
             width: 100%;
             text-align: center;
-            margin-bottom: -5px;
+            margin-bottom: -6px;
+            height: 100% !important;
             li {
                 display: inline-block;
                 font-size: 16px;
                 line-height: 24px;
                 color: #333333;
                 font-family: 'RobotoRegular';
-                margin: 0 2px;
+                
                 .hovers_effect {
                     position: relative;
                     overflow: hidden;
@@ -106,4 +107,39 @@
             }
         }
     }
+    .btn-menu{
+        font-size: 20px;
+        color: #888;
+        border: 1px #ddd solid;
+        padding: 7px 12px;
+        margin: 7px;
+    }
+    .btn-menu:hover{
+        background: #ddd;
+    }
+    
+    /*--REPONSIVE--*/
+    @media (min-width: 768px){
+        .btn-menu{
+            display: none;
+        }
+        .collapse{
+            display: block;
+        }
+        ul li{
+            margin: 0 2px;
+        }
+    }
+    @media (max-width: 767px){
+        ul li{
+            width: 100%;
+            margin: 0;
+            
+        }
+        ul li:first-child{
+            border-top: 1px solid #e5e5e5;
+        }
+    }
+    /*--END REPONSIVE--*/
+
 }

@@ -40,7 +40,8 @@
 .type-6 .menu-category ul {
   width: 100%;
   text-align: center;
-  margin-bottom: -5px;
+  margin-bottom: -6px;
+  height: 100% !important;
 }
 .type-6 .menu-category ul li {
   display: inline-block;
@@ -48,7 +49,6 @@
   line-height: 24px;
   color: #333333;
   font-family: 'RobotoRegular';
-  margin: 0 2px;
 }
 .type-6 .menu-category ul li .hovers_effect {
   position: relative;
@@ -102,4 +102,34 @@
 }
 .type-6 .menu-category ul li:hover .hovers_text {
   color: #fff;
+}
+.type-6 .btn-menu {
+  font-size: 20px;
+  color: #888;
+  border: 1px #ddd solid;
+  padding: 7px 12px;
+  margin: 7px;
+}
+.type-6 .btn-menu:hover {
+  background: #ddd;
+}
+@media (min-width: 768px) {
+  .type-6 .btn-menu {
+    display: none;
+  }
+  .type-6 .collapse {
+    display: block;
+  }
+  .type-6 ul li {
+    margin: 0 2px;
+  }
+}
+@media (max-width: 767px) {
+  .type-6 ul li {
+    width: 100%;
+    margin: 0;
+  }
+  .type-6 ul li:first-child {
+    border-top: 1px solid #e5e5e5;
+  }
 }

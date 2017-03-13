@@ -41,6 +41,7 @@
   width: 100%;
   text-align: center;
   margin-bottom: -6px;
+  height: 100% !important;
 }
 .type-6 .menu-category ul li {
   display: inline-block;

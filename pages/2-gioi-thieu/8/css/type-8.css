@@ -35,13 +35,13 @@
 }
 .type-8 .menu-category {
   width: auto;
-  margin-bottom: 20px;
   border-bottom: 1px solid #e5e5e5;
 }
 .type-8 .menu-category ul {
   width: 100%;
   text-align: center;
-  margin-bottom: -5px;
+  margin-bottom: -6px;
+  height: 100% !important;
 }
 .type-8 .menu-category ul li {
   display: inline-block;
@@ -49,7 +49,6 @@
   line-height: 24px;
   color: #333333;
   font-family: 'RobotoRegular';
-  margin: 0 2px;
 }
 .type-8 .menu-category ul li .hovers_effect {
   position: relative;
@@ -104,6 +103,16 @@
 .type-8 .menu-category ul li:hover .hovers_text {
   color: #fff;
 }
+.type-8 .btn-menu {
+  font-size: 20px;
+  color: #888;
+  border: 1px #ddd solid;
+  padding: 7px 12px;
+  margin: 7px;
+}
+.type-8 .btn-menu:hover {
+  background: #ddd;
+}
 .type-8 .the-content {
   font-size: 14px;
   line-height: 28px;
@@ -111,6 +120,7 @@
   text-align: justify;
   margin-bottom: 20px;
   font-family: 'RobotoRegular';
+  margin-top: 20px;
 }
 .type-8 .the-content .a-title {
   font-size: 21px;
@@ -146,6 +156,26 @@
   left: 6px;
   margin: 10px 0px;
   z-index: 0;
+}
+@media (min-width: 768px) {
+  .type-8 .btn-menu {
+    display: none;
+  }
+  .type-8 .collapse {
+    display: block;
+  }
+  .type-8 ul li {
+    margin: 0 2px;
+  }
+}
+@media (max-width: 767px) {
+  .type-8 ul li {
+    width: 100%;
+    margin: 0;
+  }
+  .type-8 ul li:first-child {
+    border-top: 1px solid #e5e5e5;
+  }
 }
 @media (max-width: 767px) {
   .type-8 .container {

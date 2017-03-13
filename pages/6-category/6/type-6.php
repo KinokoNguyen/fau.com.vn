@@ -9,11 +9,14 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.js" type="text/javascript"></script>
-
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        
+        
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -44,9 +47,12 @@ and open the template in the editor.
                 </div>
                 </div>
             <div class="row">
+                <!--ICON BAR-->
+                <div class="fa fa-list-ul btn-menu" data-toggle="collapse" data-target=".navbar-collapse-top-menu"></div>
+                <!--END ICON BAR-->
                 <div class="menu-category">
                     <!--BEGIN MENU CATEGORY-->
-                    <ul>
+                    <ul class="collapse navbar-collapse-top-menu">
                         <li class="current"><a class="hovers_effect" href="#"><span class="hovers_text">Giới thiệu</span></a></li>
                         <li><a class="hovers_effect" href="#"><span class="hovers_text">Triết lý hoạt động</span></a></li>
                         <li><a class="hovers_effect" href="#"><span class="hovers_text">Lịch sử hình thành</span></a></li>
