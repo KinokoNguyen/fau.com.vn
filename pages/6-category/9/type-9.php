@@ -28,181 +28,13 @@ and open the template in the editor.
     </head>
     <body>
         <div class="type-9">
-            <div class="container-fluid">
-            <div class="row">
-                <div class="heading">
-                    <!--TITLE-->
-                    <div class="p-title">
-                        <h2>Thức ăn gia súc gia cầm</h2>
-                    </div>
-                    <!--END TITLE-->
-                </div>
-            </div>
-            <div class="row">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-4 col-xs-12">
-                            <!--MENU CATEGORY PRODUCT-->
-                            <div class="prod-menu">
-                                <div class="w-prod-menu">
-                                    <ul>
-                                        <li><a href="#">Thức ăn cho bò</a></li>
-                                        <li><a href="#">Thức ăn cho vịt</a></li>
-                                        <li><a href="#">Thức ăn cho gà</a></li>
-                                        <li><a href="#">Thức ăn cho heo</a></li>
-                                        <li><a href="#">Trứng Omega 3</a></li>
-                                        <li><a href="#">Thịt heo hữu cơ</a></li>
-                                    </ul>
-                                </div>
-                                <div class="m-prod-menu">
-                                    <select>
-                                        <option>Thức ăn cho bò</option>
-                                        <option>Thức ăn cho vịt</option>
-                                        <option>Thức ăn cho gà</option>
-                                        <option>Thức ăn cho heo</option>
-                                        <option>Trứng Omega 3</option>
-                                        <option>Thịt heo hữu cơ</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <!--END MENU CATEGORY PRODUCT-->
-                        </div>
-                        <div class="col-md-9 col-sm-8 col-xs-12 products">
-                            <div class="row">
-                                <!--ITEM PRODUCT-->
-                                <div class="col-md-4 col-sm-6 col-xs-6">
-                                    <div class="item">
-                                        <div class="i-images">
-                                            <a href="#" >
-                                                <img src="images/type-9/(270x180)_crop_20141209100602-3.jpg">
-                                            </a>
-                                        </div>
-                                        <div class="i-description">
-                                            <h3 class="i-title">
-                                                <a href="#">AU FEED - 651L</a>
-                                            </h3>
-                                            <div class="i-content">Thức ăn hỗn hợp cho heo nái mang thai</div>
-                                        </div>
-                                    </div>
+            
 
-                                </div>
-                                <!--END ITEM PRODUCT-->
-                                <div class="col-md-4 col-sm-6 col-xs-6">
-                                    <div class="item">
-                                        <div class="i-images">
-                                            <a href="#" >
-                                                <img src="images/type-9/(270x180)_crop_20141209100602-3.jpg">
-                                            </a>
-                                        </div>
-                                        <div class="i-description">
-                                            <h3 class="i-title">
-                                                <a href="#">AU FEED - 651L</a>
-                                            </h3>
-                                            <div class="i-content">Thức ăn hỗn hợp cho heo nái mang thai</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 col-xs-6">
-                                    <div class="item">
-                                        <div class="i-images">
-                                            <a href="#" >
-                                                <img src="images/type-9/(270x180)_crop_20141209100602-3.jpg">
-                                            </a>
-                                        </div>
-                                        <div class="i-description">
-                                            <h3 class="i-title">
-                                                <a href="#">AU FEED - 651L</a>
-                                            </h3>
-                                            <div class="i-content">Thức ăn hỗn hợp cho heo nái mang thai</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 col-xs-6">
-                                    <div class="item">
-                                        <div class="i-images">
-                                            <a href="#" >
-                                                <img src="images/type-9/(270x180)_crop_20141209100602-3.jpg">
-                                            </a>
-                                        </div>
-                                        <div class="i-description">
-                                            <h3 class="i-title">
-                                                <a href="#">AU FEED - 651L</a>
-                                            </h3>
-                                            <div class="i-content">Thức ăn hỗn hợp cho heo nái mang thai</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 col-xs-6">
-                                    <div class="item">
-                                        <div class="i-images">
-                                            <a href="#" >
-                                                <img src="images/type-9/(270x180)_crop_20141209100602-3.jpg">
-                                            </a>
-                                        </div>
-                                        <div class="i-description">
-                                            <h3 class="i-title">
-                                                <a href="#">AU FEED - 651L</a>
-                                            </h3>
-                                            <div class="i-content">Thức ăn hỗn hợp cho heo nái mang thai</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 col-xs-6">
-                                    <div class="item">
-                                        <div class="i-images">
-                                            <a href="#" >
-                                                <img src="images/type-9/(270x180)_crop_20141209100602-3.jpg">
-                                            </a>
-                                        </div>
-                                        <div class="i-description">
-                                            <h3 class="i-title">
-                                                <a href="#">AU FEED - 651L</a>
-                                            </h3>
-                                            <div class="i-content">Thức ăn hỗn hợp cho heo nái mang thai</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 col-xs-6">
-                                    <div class="item">
-                                        <div class="i-images">
-                                            <a href="#" >
-                                                <img src="images/type-9/(270x180)_crop_20141209100602-3.jpg">
-                                            </a>
-                                        </div>
-                                        <div class="i-description">
-                                            <h3 class="i-title">
-                                                <a href="#">AU FEED - 651L</a>
-                                            </h3>
-                                            <div class="i-content">Thức ăn hỗn hợp cho heo nái mang thai</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6 col-xs-6">
-                                    <div class="item">
-                                        <div class="i-images">
-                                            <a href="#" >
-                                                <img src="images/type-9/(270x180)_crop_20141209100602-3.jpg">
-                                            </a>
-                                        </div>
-                                        <div class="i-description">
-                                            <h3 class="i-title">
-                                                <a href="#">AU FEED - 651L</a>
-                                            </h3>
-                                            <div class="i-content">Thức ăn hỗn hợp cho heo nái mang thai</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
+            
                 <div class="container">
                     <div class="row">
                         <!--BEGIN ITEM GALLERY-->
-                        <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="col-md-4 col-sm-4 col-xs-6">
                             <div class="list-gallery">
                                 <div class="row-gallery ">
                                     <div class="item-gallery">
@@ -219,7 +51,7 @@ and open the template in the editor.
                             </div>
                         </div>
                         <!--END ITEM GALLERY-->
-                        <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="col-md-4 col-sm-4 col-xs-6">
                             <div class="list-gallery">
                                 <div class="row-gallery ">
                                     <div class="item-gallery">
@@ -235,7 +67,7 @@ and open the template in the editor.
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="col-md-4 col-sm-4 col-xs-6">
                             <div class="list-gallery">
                                 <div class="row-gallery ">
                                     <div class="item-gallery">
@@ -251,7 +83,7 @@ and open the template in the editor.
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="col-md-4 col-sm-4 col-xs-6">
                             <div class="list-gallery">
                                 <div class="row-gallery ">
                                     <div class="item-gallery">
@@ -267,7 +99,7 @@ and open the template in the editor.
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="col-md-4 col-sm-4 col-xs-6">
                             <div class="list-gallery">
                                 <div class="row-gallery ">
                                     <div class="item-gallery">
@@ -283,39 +115,7 @@ and open the template in the editor.
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="list-gallery">
-                                <div class="row-gallery ">
-                                    <div class="item-gallery">
-                                        <div class="i-thumbnail">
-                                            <a href="#">
-                                                <img src="images/type-9/(370x250)_crop_D30_2458.jpg">
-                                            </a>
-                                        </div>
-                                        <div class="i-description">
-                                            <a href="#">Tất Niên 2014</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
-                            <div class="list-gallery">
-                                <div class="row-gallery ">
-                                    <div class="item-gallery">
-                                        <div class="i-thumbnail">
-                                            <a href="#">
-                                                <img src="images/type-9/(370x250)_crop_D30_2458.jpg">
-                                            </a>
-                                        </div>
-                                        <div class="i-description">
-                                            <a href="#">Tất Niên 2014</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="col-md-4 col-sm-4 col-xs-6">
                             <div class="list-gallery">
                                 <div class="row-gallery ">
                                     <div class="item-gallery">
@@ -334,8 +134,7 @@ and open the template in the editor.
                     </div>
                 </div>
 
-            </div>
-            </div>
+           
         </div>
 
     </body>

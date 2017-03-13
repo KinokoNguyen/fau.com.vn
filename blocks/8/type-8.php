@@ -9,7 +9,7 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>
@@ -41,16 +41,19 @@ and open the template in the editor.
                 </div>
             </div> 
             <div class="row">
+                 <!--ICON BAR-->
+                <div class="fa fa-list-ul btn-menu" data-toggle="collapse" data-target=".navbar-collapse-top-menu"></div>
+                <!--END ICON BAR-->
                 <div class="menu-category">
                     <!--BEGIN MENU CATEGORY-->
-                    <ul>
+                    <ul class="collapse navbar-collapse-top-menu">
                         <li class="current"><a class="hovers_effect" href="#"><span class="hovers_text">Giới thiệu</span></a></li>
                         <li><a class="hovers_effect" href="#"><span class="hovers_text">Triết lý hoạt động</span></a></li>
                         <li><a class="hovers_effect" href="#"><span class="hovers_text">Lịch sử hình thành</span></a></li>
                         <li><a class="hovers_effect" href="#"><span class="hovers_text">Hệ thống phân phối</span></a></li>
                         <li><a class="hovers_effect" href="#"><span class="hovers_text">Đội ngũ nhân sự</span></a></li>
                     </ul>
-                    <!--END MENU CATEOGRY-->
+                    <!--END MENU CATEGORY-->
                 </div>
             </div>
             <div class="row">
