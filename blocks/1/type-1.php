@@ -9,7 +9,6 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>
@@ -21,9 +20,8 @@ and open the template in the editor.
             $less = new lessc;
             $less->compileFile('./less/type-1.less', './css/type-1.css');
         ?>
-
-        <link href="css/nivo-slider.css" rel="stylesheet" type="text/css"/>
         <link href="css/type-1.css" rel="stylesheet" type="text/css"/>
+        
         <script src="js/jquery-migrate.min.js" type="text/javascript"></script>
         <script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
         <script type="text/javascript"> 

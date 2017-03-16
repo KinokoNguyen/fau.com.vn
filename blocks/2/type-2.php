@@ -13,7 +13,8 @@ and open the template in the editor.
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>
-
+        <script src="js/jquery.swiper.min.js" type="text/javascript"></script>
+        
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -21,12 +22,8 @@ and open the template in the editor.
         $less = new lessc;
         $less->compileFile('./less/type-2.less', './css/type-2.css');
         ?>
-        <link href="css/swipe-slider.css" rel="stylesheet" type="text/css"/>
-        <script src="js/jquery.js" type="text/javascript"></script>
-        <script src="js/jquery.swiper.min.js" type="text/javascript"></script>
-        
-        <link href="css/all_css.css" rel="stylesheet" type="text/css"/>
         <link href="css/type-2.css" rel="stylesheet" type="text/css"/>
+        
 
         <script>
             jQuery(document).ready(function ($) {
@@ -52,10 +49,10 @@ and open the template in the editor.
 
     </head>
     <body>
-        <div class="type-2">
-            
-                <div class="container">
-                    <div class="row">
+        <div class="type-2">           
+            <div class="container">
+                <div class="row">
+                    <!--CATEGORIES--->
                     <div class="heading">
                         <!--TITLE-->
                         <div class="p-title">
@@ -63,7 +60,10 @@ and open the template in the editor.
                         </div>
                         <!--END TITLE-->
                     </div>
-                    <div class="">
+                    <!--END CATEGORIES-->
+                    
+                    <!--SLIDE SHOW-->
+                    <div class="slide">
                         <div class="col-md-3 col-sm-4 col-xs-12">
                             <!--PRODUCT CATEGORY-->
                             <div class="prod-menu">
@@ -230,7 +230,7 @@ and open the template in the editor.
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                             <!--END SLIDE PRODUCT-->
@@ -242,9 +242,9 @@ and open the template in the editor.
                             <!--END CONTROL SLIDER-->
                         </div>
                     </div>
+                    <!--END SLIDE SHOW-->
                 </div>
             </div>
         </div>
-
     </body>
 </html>

@@ -21,14 +21,9 @@ and open the template in the editor.
         $less = new lessc;
         $less->compileFile('./less/type-4.less', './css/type-4.css');
         ?>
-
-
-        <link href="css/swipe-slider.css" rel="stylesheet" type="text/css"/>
-        <script src="js/jquery.js" type="text/javascript"></script>
-        <script src="js/jquery.swiper.min.js" type="text/javascript"></script>
-
-        <link href="css/all_css.css" rel="stylesheet" type="text/css"/>
         <link href="css/type-4.css" rel="stylesheet" type="text/css"/>
+        
+        <script src="js/jquery.swiper.min.js" type="text/javascript"></script>
 
         <script>
             jQuery(document).ready(function ($) {
@@ -57,6 +52,7 @@ and open the template in the editor.
         <div class="type-4">
                 <div class="container">
                     <div class="row">
+                        <!--SLIDE SHOW-->
                         <div class="related-product">
                             <!--TITLE-->
                             <div class="title">Sản phẩm cùng loại</div>
@@ -227,10 +223,9 @@ and open the template in the editor.
                             </div>
                             <!--END CONTROL SLIDE PRODUCT-->
                         </div>
+                        <!--END SLIDE SHOW-->
                     </div>
                 </div>
-            
         </div>
-
     </body>
 </html>

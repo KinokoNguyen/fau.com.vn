@@ -21,15 +21,10 @@ and open the template in the editor.
         $less = new lessc;
         $less->compileFile('./less/type-3.less', './css/type-3.css');
         ?>
-<!--        <link href="css/all_css.css" rel="stylesheet" type="text/css"/>-->
         <link href="css/type-3.css" rel="stylesheet" type="text/css"/>
-
 
         <!--SLIDE RIGHT-->
         <script src="js/slick.js" type="text/javascript"></script>
-        <link href="css/slick.css" rel="stylesheet" type="text/css"/>
-        
-
         <script>
             $(document).ready(function () {
                 $('#slider-news').slick({
@@ -42,12 +37,14 @@ and open the template in the editor.
                 });
             });
         </script>
+        <!--END SLIDE RIGHT-->
+        
     </head>
     <body>
         <div class="type-3">
-            
-                <div class="container">
-                    <div class="row">
+            <div class="container">
+                <div class="row">
+                    <!--HEADING-->
                     <div class="heading">
                         <!--TITLE-->
                         <div class="p-title">
@@ -55,7 +52,10 @@ and open the template in the editor.
                         </div>
                         <!--END TITLE-->
                     </div>
-                    <div class="">
+                    <!--END HEADING-->
+
+                    <!--CONTENT-->
+                    <div class="content">
                         <div class="col-md-9 col-sm-9 col-xs-12">
                             <div class="row">
                                 <!--ITEM PRODUCT LARGE-->
@@ -207,29 +207,30 @@ and open the template in the editor.
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-12 mg-r">
                             <div class="">
-                            <div class="item-slider">
-                                <div class="s-title">Bằng khen &amp; chứng nhận</div>
-                                <div class="slider-news">
-                                    <div id="slider-news">
-                                        <div class="s-item">
-                                            <div class="i-images"><img  src="http://fau.com.vn/vnt_upload/weblink/thumbs/(150x100)_crop_bangkhen.jpg"  alt="GIẢI THƯỞNG - 2015" /></div>
-                                            <div class="i-description">GIẢI THƯỞNG - 2015</div>
-                                        </div>
-                                        <div class="s-item">
-                                            <div class="i-images"><img  src="http://fau.com.vn/vnt_upload/weblink/thumbs/(150x100)_crop_bangkhen.jpg"  alt="GIẢI THƯỞNG - 2015" /></div>
-                                            <div class="i-description">GIẢI THƯỞNG - 2015</div>
-                                        </div>
-                                        <div class="s-item">
-                                            <div class="i-images"><img  src="http://fau.com.vn/vnt_upload/weblink/thumbs/(150x100)_crop_bangkhen.jpg"  alt="GIẢI THƯỞNG - 2015" /></div>
-                                            <div class="i-description">GIẢI THƯỞNG - 2015</div>
-                                        </div>
+                                <div class="item-slider">
+                                    <div class="s-title">Bằng khen &amp; chứng nhận</div>
+                                    <div class="slider-news">
+                                        <div id="slider-news">
+                                            <div class="s-item">
+                                                <div class="i-images"><img  src="http://fau.com.vn/vnt_upload/weblink/thumbs/(150x100)_crop_bangkhen.jpg"  alt="GIẢI THƯỞNG - 2015" /></div>
+                                                <div class="i-description">GIẢI THƯỞNG - 2015</div>
+                                            </div>
+                                            <div class="s-item">
+                                                <div class="i-images"><img  src="http://fau.com.vn/vnt_upload/weblink/thumbs/(150x100)_crop_bangkhen.jpg"  alt="GIẢI THƯỞNG - 2015" /></div>
+                                                <div class="i-description">GIẢI THƯỞNG - 2015</div>
+                                            </div>
+                                            <div class="s-item">
+                                                <div class="i-images"><img  src="http://fau.com.vn/vnt_upload/weblink/thumbs/(150x100)_crop_bangkhen.jpg"  alt="GIẢI THƯỞNG - 2015" /></div>
+                                                <div class="i-description">GIẢI THƯỞNG - 2015</div>
+                                            </div>
 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            </div>
                         </div>
                     </div>
+                    <!--END CONTENT-->
                 </div>
             </div>
         </div>

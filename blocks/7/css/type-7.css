@@ -93,6 +93,16 @@
   max-height: 600px;
   overflow-y: auto;
 }
+.type-7 a,
+.type-7 a:hover {
+  text-decoration: none;
+  color: #000;
+}
+.type-7 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 @media (max-width: 767px) {
   .type-7 .container {
     margin: 0 15px;

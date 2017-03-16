@@ -21,8 +21,6 @@ and open the template in the editor.
         $less = new lessc;
         $less->compileFile('./less/type-7.less', './css/type-7.css');
         ?>
-
-        <link href="css/all_css.css" rel="stylesheet" type="text/css"/>
         <link href="css/type-7.css" rel="stylesheet" type="text/css"/>
 
 

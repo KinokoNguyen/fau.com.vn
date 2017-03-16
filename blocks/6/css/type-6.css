@@ -113,6 +113,16 @@
 .type-6 .btn-menu:hover {
   background: #ddd;
 }
+.type-6 .menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.type-6 .menu a,
+.type-6 .menu a:hover {
+  text-decoration: none;
+  color: #000;
+}
 @media (min-width: 768px) {
   .type-6 .btn-menu {
     display: none;
