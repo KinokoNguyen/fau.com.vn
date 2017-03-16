@@ -17,7 +17,6 @@
             margin: 0px;
             text-align: right;
             position: relative;
-
             li {
                 padding: 0px 12px;
                 position: relative;
@@ -25,6 +24,7 @@
                 font-size: 14px;
                 color: #666666;
                 line-height: 20px;
+                font-family: 'RobotoRegular';
                 a {
                     font-size: 14px;
                     color: #666666;
@@ -32,7 +32,6 @@
                     font-family: 'RobotoRegular';
                 }
             }
-
             li.home a {
                 display: inline-block;
                 text-indent: -99999px;
@@ -51,9 +50,19 @@
                 color: #666666;
                 font-size: 14px;
             }
-
             li:first-child {
                 padding: 0px 12px 0px 0px;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .breadcrumb {
+            ul li {
+                font-size: 11px;
+                a {
+                    font-size: 11px;
+                }
             }
         }
     }

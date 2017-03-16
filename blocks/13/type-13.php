@@ -11,7 +11,6 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-        <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>
 
         <?php
@@ -21,37 +20,41 @@ and open the template in the editor.
         $less = new lessc;
         $less->compileFile('less/type-13.less', 'css/type-13.css');
         ?>
-
-        <link href="css/all_css.css" rel="stylesheet" type="text/css"/>
+        
         <link href="css/type-13.css" rel="stylesheet" type="text/css"/>
 
     </head>
     <body>
         <div class="type-13">
             <div class="container-fluid">
-            <div class="row">
-                <div class="banner">
-                    <a href="#">
-                        <img src="images/type-13/banner.jpg">
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="container">
-                    <div class="breadcrumb">
-                        <ul>
-                            <li class="home">
-                                <a href="/">Trang chủ</a>
-                            </li>
-                            <li>
-                                <a href="/san-pham.html">Sản phẩm</a>
-                            </li>
-                            <li>Thức ăn cho heo
-                            </li>
-                        </ul>
+                <!--BANNER-->
+                <div class="row">
+                    <div class="banner">
+                        <a href="#">
+                            <img src="images/type-13/banner.jpg">
+                        </a>
                     </div>
                 </div>
-            </div>
+                <!--/END BANNER-->
+                
+                <!--BREAD CRUMB-->
+                <div class="row">
+                    <div class="container">
+                        <div class="breadcrumb">
+                            <ul>
+                                <li class="home">
+                                    <a href="/">Trang chủ</a>
+                                </li>
+                                <li>
+                                    <a href="/san-pham.html">Sản phẩm</a>
+                                </li>
+                                <li>Thức ăn cho heo
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--/END BREAD CRUMB-->
             </div>
         </div>    
     </body>

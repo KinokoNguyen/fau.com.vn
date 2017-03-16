@@ -1,3 +1,34 @@
+.type-header a,
+.type-header a:hover,
+.type-header a:focus,
+.type-header a:active {
+  text-decoration: none;
+  color: #000;
+}
+.type-header ul {
+  list-style: none;
+  padding: 0;
+}
+.type-header .space {
+  margin-top: 30px;
+}
+.type-header .clear {
+  clear: both;
+  font-size: 0px;
+  line-height: 0px;
+  height: 0;
+}
+.type-header img {
+  max-width: 100%;
+  border: 0px;
+  vertical-align: middle;
+}
+.type-header .mg-r {
+  margin-right: 0px;
+}
+.type-header .pd-r {
+  padding-right: 0px;
+}
 .type-header #header {
   padding-bottom: 5px;
   background-color: #00af5a;

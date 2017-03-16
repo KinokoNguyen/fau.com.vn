@@ -1,3 +1,10 @@
+.type-9 a,
+.type-9 a:hover,
+.type-9 a:focus,
+.type-9 a:active {
+  text-decoration: none;
+  color: #000;
+}
 .type-9 .heading .p-title {
   font-size: 40px;
   line-height: 50px;

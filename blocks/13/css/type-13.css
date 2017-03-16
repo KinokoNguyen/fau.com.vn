@@ -22,6 +22,7 @@
   font-size: 14px;
   color: #666666;
   line-height: 20px;
+  font-family: 'RobotoRegular';
 }
 .type-13 .breadcrumb ul li a {
   font-size: 14px;
@@ -49,4 +50,12 @@
 }
 .type-13 .breadcrumb ul li:first-child {
   padding: 0px 12px 0px 0px;
+}
+@media (max-width: 768px) {
+  .type-13 .breadcrumb ul li {
+    font-size: 11px;
+  }
+  .type-13 .breadcrumb ul li a {
+    font-size: 11px;
+  }
 }

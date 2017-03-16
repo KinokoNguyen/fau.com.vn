@@ -1,3 +1,35 @@
+.type-comment a,
+.type-comment a:hover,
+.type-comment a:focus,
+.type-comment a:active {
+  text-decoration: none;
+  color: #000;
+}
+.type-comment ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.type-comment .space {
+  margin-top: 30px;
+}
+.type-comment .clear {
+  clear: both;
+  font-size: 0px;
+  line-height: 0px;
+  height: 0;
+}
+.type-comment img {
+  max-width: 100%;
+  border: 0px;
+  vertical-align: middle;
+}
+.type-comment .mg-r {
+  margin-right: 0px;
+}
+.type-comment .pd-r {
+  padding-right: 0px;
+}
 .type-comment .comment {
   margin-bottom: 20px;
 }
